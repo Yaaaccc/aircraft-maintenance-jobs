@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>机务维修招聘信息站</title>
+  <meta name="description" content="中国与新加坡航空公司、维修企业机务维修工程师校招与社招信息聚合">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✈️</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <div>
+        <h1>✈️ 机务维修招聘信息站</h1>
+        <p class="subtitle">中国 &amp; 新加坡 · 航空公司与维修企业 · 机务维修工程师 校招 / 社招</p>
+      </div>
+      <div class="last-updated" id="lastUpdated"></div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="toolbar" id="filters">
+      <input type="search" id="searchInput" placeholder="搜索公司 / 岗位 / 地点，例如：GAMECO、机务、广州">
+      <div class="chip-group" id="typeFilter"></div>
+      <div class="chip-group" id="regionFilter"></div>
+      <div class="chip-group" id="categoryFilter"></div>
+    </section>
+
+    <div class="result-bar">
+      <span id="resultCount"></span>
+      <button id="resetFilters" class="link-btn">重置筛选</button>
+    </div>
+
+    <section id="jobList" class="job-list"></section>
+
+    <section class="card">
+      <h2>常用投递渠道（官方入口）</h2>
+      <p class="card-tip">以下为各公司官方招聘入口，投递前请以官网发布为准。</p>
+      <div class="portal-grid" id="portalList"></div>
+    </section>
+
+    <section class="card">
+      <h2>求职小贴士</h2>
+      <ul class="tips">
+        <li><strong>招聘时间线：</strong>2027 届秋招一般于 2026 年 9-11 月启动网申；2026 届春招集中在 3-5 月；社招常年开放，可随时关注。</li>
+        <li><strong>硬条件自查：</strong>机务岗位普遍要求无色盲色弱、无恐高，多数公司入职体检会查；英语四级（大专英语 A 级 / 公共三级）是常见门槛。</li>
+        <li><strong>执照：</strong>CAAC CCAR-66 维修执照（基础部分 + 机型签署）。校招入职后公司一般会安排培训考取；社招很多岗位直接要求持照。</li>
+        <li><strong>投递材料：</strong>简历（带照片）、成绩单、英语证书、实习证明、身份证件提前扫描成 PDF，官网网申和宣讲会现场都会用到。</li>
+        <li><strong>新加坡岗位：</strong>注意工作签证（EP/SP）、英语要求；应届生可优先看 SIAEC 的培训生项目（AMLT / Dual Trade）。</li>
+        <li><strong>工作地点：</strong>机务岗位集中在广州、深圳、北京、上海、成都、海口、济南、厦门、珠海、新加坡等地，可先圈定意向城市再投。</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <details>
+        <summary>这个网站怎么更新招聘信息？</summary>
+        <div class="update-guide">
+          <p>所有岗位数据都放在 <code>data.js</code> 一个文件里，更新方法：</p>
+          <ol>
+            <li>用记事本或任意编辑器打开 <code>data.js</code>；</li>
+            <li>找到 <code>positions</code> 数组，复制任意一个 <code>{ ... }</code> 条目，修改公司、岗位、要求、链接、日期；</li>
+            <li>保存文件，刷新网页即可看到更新。</li>
+          </ol>
+          <p>也可以直接把新招聘信息发给 Codex，由它帮你更新到 <code>data.js</code>。</p>
+          <p class="card-tip">提示：本页数据为人工整理的快照，投递前务必到官方渠道确认岗位是否仍开放。</p>
+        </div>
+      </details>
+    </section>
+  </main>
+
+  <footer>
+    数据整理于 <span id="footerDate"></span> · 仅供求职参考，请以各公司官方招聘信息为准
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
