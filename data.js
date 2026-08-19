@@ -3,7 +3,7 @@
 // 添加新岗位：复制 positions 里任意一个 { ... } 条目，修改内容
 // ============================================================
 window.JOB_DATA = {
-  lastUpdated: "2026-08-17",
+  lastUpdated: "2026-08-19",
 
   positions: [
     {
@@ -57,7 +57,7 @@ window.JOB_DATA = {
       region: "中国大陆",
       title: "飞机维修工程师（校招）· 机械员 / 放行工程师（社招）",
       locations: "上海、北京、西安、昆明、南京、青岛、合肥、南昌、太原、杭州、宁波、兰州、成都、武汉、广州、深圳等",
-      updated: "2026-07-09",
+      updated: "2026-08-19",
       requirements: [
         "航空航天类、交通运输类（机务维修方向）、机械类、仪器类、材料类、能源动力类、电气类、电子信息类、自动化类、力学类、计算机类、安全科学与工程类等专业",
         "本科及以上（部分岗位大专）"
@@ -66,7 +66,7 @@ window.JOB_DATA = {
         { label: "东航招聘官网 job.ceair.com", url: "https://job.ceair.com" },
         { label: "公众号「东航招聘」", url: "" }
       ],
-      note: "2026届校招报名已于2026-06-30截止；社招（机械员、放行工程师、专职教员等）持续开放；2027届校招预计秋季启动。",
+      note: "2026年度夏招热招中：卓越航空工程师（报名截止2026-12-31）、菁英航空工程师、飞机维修工程师（报名截止2026-08-31，临近）；社招（机械员、放行工程师、专职教员等）持续开放；2027届校招预计秋季启动。",
       source: "https://www.ynbys.cn/news/view/aid/343786/tag/tzgg"
     },
     {
@@ -139,7 +139,7 @@ window.JOB_DATA = {
       region: "中国大陆",
       title: "基地维修培训生（机身/航电/客舱/钣金/复材）· 持照维修工程师",
       locations: "厦门、深圳",
-      updated: "2026-08-17",
+      updated: "2026-08-19",
       requirements: [
         "培训生：大专/本科，工科背景即可",
         "持照工程师岗：大专及以上，CAAC TA执照+机型签署，或 HKCAD B1.1"
@@ -147,7 +147,7 @@ window.JOB_DATA = {
       channels: [
         { label: "HAECO 招聘官网 careers.haeco.com", url: "https://careers.haeco.com" }
       ],
-      note: "深圳航线维修放行人员岗位投递截止2026-08-31（临近）；基地维修培训生持续招聘，社招岗位持续更新。",
+      note: "深圳航线维修放行人员岗位投递截止2026-08-31（本周到期，尽快投递）；另有深圳 LM Certifying Engineer 放行岗在招；基地维修培训生持续招聘，社招岗位持续更新。",
       source: "https://careers.haeco.com/job/%E5%9F%BA%E5%9C%B0%E7%BB%B4%E4%BF%AE%E5%9F%B9%E8%AE%AD%E7%94%9F/1214470766/"
     },
     {
@@ -179,16 +179,17 @@ window.JOB_DATA = {
       region: "中国大陆",
       title: "维修机械员（机械/客舱/航线/电子/无损探伤/结构）、维修技术员、质量工程师",
       locations: "成都（双流/天府基地）",
-      updated: "2026-08-17",
+      updated: "2026-08-19",
       requirements: [
         "相关理工类专业背景",
         "部分岗位需民航维修执照或相关工作经验"
       ],
       channels: [
         { label: "四川航空集团官网", url: "https://www.sichuanair.com" },
-        { label: "智联招聘（川维岗位）", url: "https://www.zhaopin.com" }
+        { label: "智联招聘（川维岗位）", url: "https://www.zhaopin.com" },
+        { label: "「四川航空集团招聘」公众号 / 民航资源网", url: "" }
       ],
-      note: "2026-06-12至07-10批次报名已截止；近期社招岗位（维修机械员等）在智联招聘有发布，可关注智联及后续批次。",
+      note: "2026-06-12至07-10批次报名已截止；近期社招岗位（维修机械员-机械/客舱/无损探伤等，月薪约6000-10000）在智联招聘等渠道持续发布。",
       source: "https://www.scjjrb.cn/2026/06/15/wap_99466207.html"
     },
     {
@@ -216,18 +217,19 @@ window.JOB_DATA = {
       category: "航司",
       type: ["校招", "社招"],
       region: "中国大陆",
-      title: "见习航空工程师/见习维修工程师（2026届）· 大修机械师（社招）",
+      title: "见习航空工程师（2027届）· 大修机械师（社招）",
       locations: "上海",
-      updated: "2026-08-17",
+      updated: "2026-08-19",
       requirements: [
-        "校招：大专及以上（工程师岗本科），理工类专业",
+        "校招：2027届本科及以上，航空工程、飞行器设计、机械等相关专业",
+        "英语读写良好，能阅读英文技术手册；持民航维修相关证书者优先",
         "社招大修机械师：大专及以上，2年以上飞机维修经历（系统/钣金复材）"
       ],
       channels: [
         { label: "春秋航空招聘官网 job.ch.com", url: "https://job.ch.com" },
         { label: "公众号「春秋航空招聘」", url: "" }
       ],
-      note: "2027届校招简章已于2026年6月发布，当前含实习批次；飞机维修类预计随2026年9月秋招开放。",
+      note: "2027届见习航空工程师已于2026-08-19发布（上海）；大修机械师等社招同步开放；更多机务维修类岗位预计随2026年9月秋招全面开放。",
       source: "http://www.offcn.com/gqzp/2026/0330/229247.html"
     },
     {
@@ -319,7 +321,7 @@ window.JOB_DATA = {
       region: "新加坡",
       title: "Technical Services Engineer（技术服务工程师）",
       locations: "新加坡",
-      updated: "2026-07-26",
+      updated: "2026-08-19",
       requirements: [
         "电气/电子/机械/航空航天工程本科及以上",
         "能独立工作，具备团队协作能力",
@@ -328,7 +330,7 @@ window.JOB_DATA = {
       channels: [
         { label: "SIA 招聘官网 careers.singaporeair.com/sia", url: "https://careers.singaporeair.com/sia" }
       ],
-      note: "面向有经验工程师；应届生可优先关注下方 SIAEC 培训生项目。",
+      note: "面向有经验工程师，2026-08核实仍在招；另有 Material Management Associate 等工程类岗位；应届生可优先关注下方 SIAEC 培训生项目。",
       source: "https://www.glassdoor.sg/job-listing/engineering-technical-services-engineer-singapore-airlines-JV_KO0,39_KE40,58.htm"
     },
     {
@@ -378,7 +380,7 @@ window.JOB_DATA = {
       region: "中国大陆",
       title: "2027届维修工程类岗位",
       locations: "重庆",
-      updated: "2026-08-17",
+      updated: "2026-08-19",
       requirements: [
         "2027届毕业生，本科及以上",
         "CET-6 425分及以上",
@@ -388,7 +390,7 @@ window.JOB_DATA = {
         { label: "华夏航空招聘官网 hxhk.zhiye.com", url: "https://hxhk.zhiye.com" },
         { label: "公众号「华夏航空招聘官方号」", url: "" }
       ],
-      note: "2027届维修工程类校招已发布，具体岗位与投递方式以官网/公众号为准。",
+      note: "2027届维修工程类校招（华夏飞机维修工程有限公司）已发布，从事航线维修、飞机大修、工程技术、生产保障等方向；各渠道要求略有差异，以官网/公众号为准。",
       source: "https://career.nankai.edu.cn/correcruit/content/id/116157.html"
     },
     {
@@ -399,7 +401,7 @@ window.JOB_DATA = {
       region: "新加坡",
       title: "Trainee Technician - China（13个月培训生项目）",
       locations: "中国（理论培训）→ 新加坡（实习）",
-      updated: "2026-08-17",
+      updated: "2026-08-19",
       requirements: [
         "工程类大专或本科学历",
         "前6个月在国内院校完成理论培训，之后赴新加坡实习",
@@ -409,7 +411,7 @@ window.JOB_DATA = {
         { label: "SIAEC 招聘官网（岗位页）", url: "https://careers.singaporeair.com/siaec/job/Trainee-Technician-China/27632844/" },
         { label: "SIAEC 招聘官网 careers.singaporeair.com/siaec", url: "https://careers.singaporeair.com/siaec" }
       ],
-      note: "面向中国应届毕业生的培训生项目，为期13个月；投递前请以官网最新要求为准。",
+      note: "面向中国应届毕业生的培训生项目，为期13个月，2026-08核实仍在招；投递前请以官网最新要求为准。",
       source: "https://careers.singaporeair.com/siaec/job/Trainee-Technician-China/27632844/"
     }
   ],
