@@ -3,7 +3,7 @@
 // 添加新岗位：复制 positions 里任意一个 { ... } 条目，修改内容
 // ============================================================
 window.JOB_DATA = {
-  lastUpdated: "2026-08-19",
+  lastUpdated: "2026-08-20",
 
   positions: [
     {
@@ -95,9 +95,9 @@ window.JOB_DATA = {
       category: "维修企业",
       type: ["校招", "社招"],
       region: "中国大陆",
-      title: "飞机维修技术员/机械员、高潜质工程师（30人）、航线维修机械员/技术员（50人）",
+      title: "飞机维修技术员/机械员、高潜质工程师（30人）、附件维修机械员（20人）、航线维修机械员/技术员（50人）",
       locations: "海口、北京、成都、重庆、郑州、广州、深圳、哈尔滨等",
-      updated: "2026-08-17",
+      updated: "2026-08-20",
       requirements: [
         "2026届全日制硕士/本科/大专",
         "机械、电子、自动化、航空维修等理工类专业",
@@ -107,8 +107,8 @@ window.JOB_DATA = {
         { label: "海航人才招聘 recruitment.hnair.com", url: "http://recruitment.hnair.com" },
         { label: "公司官网 hnatechnic.com", url: "http://www.hnatechnic.com" }
       ],
-      note: "航线维修机械员/技术员（50人）报名截止2026-10-30；社招（航线/附件/定检维修）同步开放。",
-      source: "http://www.offcn.com/gqzp/2026/0508/236516.html"
+      note: "官网当前开放：航线维修机械员/技术员（50人，截止2026-10-30）、附件维修机械员（20人，广州/海口，截止2026-10-30）；社招（航线/定检维修等）同步开放。",
+      source: "http://recruitment.hnair.com/hrcandidatemanageair/PostList.aspx?ctype=2"
     },
     {
       id: 6,
@@ -238,18 +238,19 @@ window.JOB_DATA = {
       category: "航司",
       type: ["校招", "社招"],
       region: "中国大陆",
-      title: "飞机维修工程师（2026校招）· 部附件维修工程师、放行工程师（社招）",
+      title: "飞机维修工程师（2026校招）· 菁英工程管理培训生（发动机动力方向）· 部附件维修工程师、放行工程师（社招）",
       locations: "上海（浦东）",
-      updated: "2026-04-08",
+      updated: "2026-08-20",
       requirements: [
         "校招：大专及以上26届毕业生，飞机维修、电子电气等相关专业优先，英语CET-4/专科英语A级",
         "社招：需相关经验或执照"
       ],
       channels: [
-        { label: "吉祥航空招聘官网", url: "https://wecruit.hotjob.cn/SU62ea129d0dcad4075c8525ca/pb/index.html" }
+        { label: "吉祥航空招聘官网", url: "https://wecruit.hotjob.cn/SU62ea129d0dcad4075c8525ca/pb/index.html" },
+        { label: "前程无忧（菁英工程管理培训生岗位页）", url: "https://msearch.51job.com/jobs/shanghai-pdxq/167937850.html" }
       ],
-      note: "校招、社招同步开放，官网持续更新岗位。",
-      source: "https://m.yingjiesheng.com/job-007-648-300.html"
+      note: "2026届校招（飞机维修工程师、菁英工程管理培训生-发动机动力方向）2026-08复核仍在招；社招同步开放，官网持续更新岗位。",
+      source: "https://job.carnoc.com/jobs?id=680a0ae7ecfd742121e3fb3863e1fd3f"
     },
     {
       id: 13,
@@ -280,7 +281,7 @@ window.JOB_DATA = {
       region: "中国大陆",
       title: "飞机维修工程师（含菁英工程师）",
       locations: "深圳",
-      updated: "2026-03-05",
+      updated: "2026-08-20",
       requirements: [
         "2026届本科及以上，2026-07-31前取得毕业证、学位证",
         "理工类专业",
@@ -290,7 +291,7 @@ window.JOB_DATA = {
         { label: "深航招聘官网", url: "https://shenzhenair.hotjob.cn/SU66ea90991eb80537aad29e09/pb/school.html" },
         { label: "公众号「深航招聘」", url: "" }
       ],
-      note: "春季批次3月发布，是否仍开放以官网为准。",
+      note: "2026届岗位（飞机维修工程师/菁英工程师）2026-08复核仍在招（一览·航空航天英才网等渠道仍挂出），以官网为准。",
       source: "http://career.csu.edu.cn/job/view/id/1180405"
     },
     {
@@ -339,18 +340,19 @@ window.JOB_DATA = {
       category: "维修企业",
       type: ["校招", "社招"],
       region: "新加坡",
-      title: "Aircraft Maintenance License Trainee（AMLT，44个月CAAS Cat B执照培训）· Aircraft Trainee Technician（Dual Trade，16个月B1+B2）",
+      title: "Aircraft Maintenance License Trainee（AMLT，44个月CAAS Cat B执照培训）· Certifying Aircraft Trainee Technician（CTT，28个月CAT A）· Aircraft Trainee Technician（Dual Trade，16个月B1+B2）",
       locations: "新加坡",
-      updated: "2026-07-11",
+      updated: "2026-08-20",
       requirements: [
         "无经验要求，应届生可申请",
         "理工科背景优先",
         "良好的英语沟通能力"
       ],
       channels: [
-        { label: "SIAEC 招聘官网 careers.singaporeair.com/siaec", url: "https://careers.singaporeair.com/siaec" }
+        { label: "SIAEC 招聘官网 careers.singaporeair.com/siaec", url: "https://careers.singaporeair.com/siaec" },
+        { label: "CTT 岗位页", url: "https://careers.singaporeair.com/siaec/job/Certifying-Aircraft-Trainee-Technician/20189844" }
       ],
-      note: "面向应届/早期职业者，培训后可获CAAS执照；需自行确认工作签证（EP/SP）。",
+      note: "面向应届/早期职业者；CTT 为28个月CAT A持证技术员培训（2026-08复核在招）；培训后可获CAAS执照；需自行确认工作签证（EP/SP）。",
       source: "https://careers.singaporeair.com/siaec/job/Aircraft-Maintenance-License-Trainee-%28AMLT%29/19970444/"
     },
     {
@@ -359,17 +361,18 @@ window.JOB_DATA = {
       category: "航司",
       type: ["社招"],
       region: "新加坡",
-      title: "工程类岗位（Base Aircraft Maintenance Lead 等）",
+      title: "工程类岗位（Base Aircraft Maintenance Lead、Engineer Quality-QMS 等）",
       locations: "新加坡",
-      updated: "2026-07-22",
+      updated: "2026-08-20",
       requirements: [
         "持照飞机工程师（B1.1）",
-        "A320/B787机型签署，具备基地维修经验"
+        "A320/B787机型签署，具备基地维修经验",
+        "质量工程师（QMS）岗需3-5年航空质量管理体系相关经验"
       ],
       channels: [
         { label: "Scoot 招聘官网 careers.flyscoot.com", url: "https://careers.flyscoot.com" }
       ],
-      note: "以资深工程师为主；应届生建议先走 SIAEC 培训生或国内执照路径。",
+      note: "以资深/有经验者为主；Engineer Quality（QMS）2026-08发布在招；应届生建议先走 SIAEC 培训生或国内执照路径。",
       source: "https://www.locanto.sg/bishan/ID_9137690818/Base-Aircraft-Maintenance-Lead-Checks-Operations.html"
     },
     {
