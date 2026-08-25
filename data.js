@@ -3,7 +3,7 @@
 // 添加新岗位：复制 positions 里任意一个 { ... } 条目，修改内容
 // ============================================================
 window.JOB_DATA = {
-  lastUpdated: "2026-08-20",
+  lastUpdated: "2026-08-25",
 
   positions: [
     {
@@ -55,19 +55,20 @@ window.JOB_DATA = {
       category: "航司",
       type: ["校招", "社招"],
       region: "中国大陆",
-      title: "飞机维修工程师（校招）· 机械员 / 放行工程师（社招）",
+      title: "飞机维修工程师/菁英航空工程师/卓越航空工程师（26年度机务类校招）· 机械员/放行工程师（社招）",
       locations: "上海、北京、西安、昆明、南京、青岛、合肥、南昌、太原、杭州、宁波、兰州、成都、武汉、广州、深圳等",
-      updated: "2026-08-19",
+      updated: "2026-08-25",
       requirements: [
         "航空航天类、交通运输类（机务维修方向）、机械类、仪器类、材料类、能源动力类、电气类、电子信息类、自动化类、力学类、计算机类、安全科学与工程类等专业",
-        "本科及以上（部分岗位大专）"
+        "本科及以上；大学英语四级（雅思5.5/托福70相当），身体健康、能适应倒班",
+        "菁英/卓越航空工程师：硕士及以上（优秀可放宽本科），大学英语六级（雅思6.0/托福80相当）"
       ],
       channels: [
         { label: "东航招聘官网 job.ceair.com", url: "https://job.ceair.com" },
         { label: "公众号「东航招聘」", url: "" }
       ],
-      note: "2026年度夏招热招中：卓越航空工程师（报名截止2026-12-31）、菁英航空工程师、飞机维修工程师（报名截止2026-08-31，临近）；社招（机械员、放行工程师、专职教员等）持续开放；2027届校招预计秋季启动。",
-      source: "https://www.ynbys.cn/news/view/aid/343786/tag/tzgg"
+      note: "2026年度机务类直签校招热招中：飞机维修工程师、菁英/卓越航空工程师、部附件维修、内窥镜检测、航材工程师等，报名截止2026-12-31 17:00（设备与车辆管理岗截止08-31、IT岗09-30）；社招（机械员、放行工程师等）持续开放；2027届校招预计秋季启动。",
+      source: "http://219.143.227.187/n2588035/n2588325/n2588350/c35453721/content.html"
     },
     {
       id: 4,
@@ -97,7 +98,7 @@ window.JOB_DATA = {
       region: "中国大陆",
       title: "飞机维修技术员/机械员、高潜质工程师（30人）、附件维修机械员（20人）、航线维修机械员/技术员（50人）",
       locations: "海口、北京、成都、重庆、郑州、广州、深圳、哈尔滨等",
-      updated: "2026-08-20",
+      updated: "2026-08-25",
       requirements: [
         "2026届全日制硕士/本科/大专",
         "机械、电子、自动化、航空维修等理工类专业",
@@ -107,7 +108,7 @@ window.JOB_DATA = {
         { label: "海航人才招聘 recruitment.hnair.com", url: "http://recruitment.hnair.com" },
         { label: "公司官网 hnatechnic.com", url: "http://www.hnatechnic.com" }
       ],
-      note: "官网当前开放：航线维修机械员/技术员（50人，截止2026-10-30）、附件维修机械员（20人，广州/海口，截止2026-10-30）；社招（航线/定检维修等）同步开放。",
+      note: "官网当前开放：航线维修机械员/技术员（50人，截止2026-10-30）、附件维修机械员（20人，广州/海口，截止2026-10-30）；笔面试地点含深圳/昆明/成都/重庆/福州/海口；社招（航线/定检维修等）同步开放。",
       source: "http://recruitment.hnair.com/hrcandidatemanageair/PostList.aspx?ctype=2"
     },
     {
@@ -139,7 +140,7 @@ window.JOB_DATA = {
       region: "中国大陆",
       title: "基地维修培训生（机身/航电/客舱/钣金/复材）· 持照维修工程师",
       locations: "厦门、深圳",
-      updated: "2026-08-19",
+      updated: "2026-08-25",
       requirements: [
         "培训生：大专/本科，工科背景即可",
         "持照工程师岗：大专及以上，CAAC TA执照+机型签署，或 HKCAD B1.1"
@@ -219,7 +220,7 @@ window.JOB_DATA = {
       region: "中国大陆",
       title: "见习航空工程师（2027届）· 大修机械师（社招）",
       locations: "上海",
-      updated: "2026-08-19",
+      updated: "2026-08-25",
       requirements: [
         "校招：2027届本科及以上，航空工程、飞行器设计、机械等相关专业",
         "英语读写良好，能阅读英文技术手册；持民航维修相关证书者优先",
@@ -229,8 +230,8 @@ window.JOB_DATA = {
         { label: "春秋航空招聘官网 job.ch.com", url: "https://job.ch.com" },
         { label: "公众号「春秋航空招聘」", url: "" }
       ],
-      note: "2027届见习航空工程师已于2026-08-19发布（上海）；大修机械师等社招同步开放；更多机务维修类岗位预计随2026年9月秋招全面开放。",
-      source: "http://www.offcn.com/gqzp/2026/0330/229247.html"
+      note: "2027届校园招聘已于2026年8月下旬正式启动：见习航空工程师（2027届）已开放投递，见习维修工程师待启动（面向2027/2028届）；大修机械师等社招同步开放，更多岗位将陆续开启。",
+      source: "https://career.zjnu.edu.cn/campus/view/id/872029"
     },
     {
       id: 12,
@@ -260,7 +261,7 @@ window.JOB_DATA = {
       region: "中国大陆",
       title: "飞机维修（含卓越工程师计划）",
       locations: "厦门",
-      updated: "2026-08-17",
+      updated: "2026-08-25",
       requirements: [
         "2026届本科及以上",
         "理工类专业",
@@ -270,7 +271,7 @@ window.JOB_DATA = {
         { label: "智联校招（厦航2026）", url: "https://xiamenair2026.zhaopin.com/jobs/index.html" },
         { label: "厦航招聘网 hr.xiamenair.com", url: "https://hr.xiamenair.com" }
       ],
-      note: "2026届网申期约至2026-08-31；2027届机务大专生招聘（合作院校批次）已启动，2027届本科秋招预计9月启动。",
+      note: "2026届网申期约至2026-08-31（临近）；2027届机务大专生招聘（合作院校批次）5月报名已截止，后续以合作院校通知为准；2027届本科秋招预计9月启动。",
       source: "https://www.quanzhi.com/notice/68c2c21f542227db31ebbbba"
     },
     {
@@ -361,18 +362,19 @@ window.JOB_DATA = {
       category: "航司",
       type: ["社招"],
       region: "新加坡",
-      title: "工程类岗位（Base Aircraft Maintenance Lead、Engineer Quality-QMS 等）",
+      title: "工程类岗位（Senior Engineer Line Operations、Base Aircraft Maintenance Lead、Engineer Quality-QMS 等）",
       locations: "新加坡",
-      updated: "2026-08-20",
+      updated: "2026-08-25",
       requirements: [
         "持照飞机工程师（B1.1）",
         "A320/B787机型签署，具备基地维修经验",
-        "质量工程师（QMS）岗需3-5年航空质量管理体系相关经验"
+        "质量工程师（QMS）岗需3-5年航空质量管理体系相关经验",
+        "Senior Engineer（Line Operations）：负责B787/A320/E190航线维修运行，需持照及放行经验"
       ],
       channels: [
         { label: "Scoot 招聘官网 careers.flyscoot.com", url: "https://careers.flyscoot.com" }
       ],
-      note: "以资深/有经验者为主；Engineer Quality（QMS）2026-08发布在招；应届生建议先走 SIAEC 培训生或国内执照路径。",
+      note: "以资深/有经验者为主；Senior Engineer（Line Operations）2026-08复核在招，Section Manager Engineering（B1.1、A320/B787）在招；应届生建议先走 SIAEC 培训生或国内执照路径。",
       source: "https://www.locanto.sg/bishan/ID_9137690818/Base-Aircraft-Maintenance-Lead-Checks-Operations.html"
     },
     {
@@ -382,18 +384,18 @@ window.JOB_DATA = {
       type: ["校招"],
       region: "中国大陆",
       title: "2027届维修工程类岗位",
-      locations: "重庆",
-      updated: "2026-08-19",
+      locations: "重庆（渝北区）",
+      updated: "2026-08-25",
       requirements: [
-        "2027届毕业生，本科及以上",
-        "CET-6 425分及以上",
+        "2027届毕业生，本科及以上，毕业时间为2026年9月至2027年7月（国外学历须2027-07-31前认证）",
+        "CET-6 425分及以上（部分渠道要求）",
         "工科类专业（航空维修、机械、电子电气等）"
       ],
       channels: [
         { label: "华夏航空招聘官网 hxhk.zhiye.com", url: "https://hxhk.zhiye.com" },
         { label: "公众号「华夏航空招聘官方号」", url: "" }
       ],
-      note: "2027届维修工程类校招（华夏飞机维修工程有限公司）已发布，从事航线维修、飞机大修、工程技术、生产保障等方向；各渠道要求略有差异，以官网/公众号为准。",
+      note: "2027届维修工程类校招（华夏飞机维修工程有限公司）已发布，从事航线维修、飞机大修、工程技术、生产保障等方向，参考月薪8000-12000；公司计划参加2026秋季双选会；各渠道要求略有差异，以官网/公众号为准。",
       source: "https://career.nankai.edu.cn/correcruit/content/id/116157.html"
     },
     {
