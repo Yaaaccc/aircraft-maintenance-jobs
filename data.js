@@ -3,7 +3,7 @@
 // 添加新岗位：复制 positions 里任意一个 { ... } 条目，修改内容
 // ============================================================
 window.JOB_DATA = {
-  lastUpdated: "2026-08-25",
+  lastUpdated: "2026-08-26",
 
   positions: [
     {
@@ -78,14 +78,15 @@ window.JOB_DATA = {
       region: "中国大陆",
       title: "国航机务系统：工程技术人员 / 机务维修岗位",
       locations: "北京、成都等",
-      updated: "2026-08-17",
+      updated: "2026-08-26",
       requirements: [
         "2026届（部分含2025届）毕业生，2026-07-31前取得毕业证、学位证",
         "本科及以上",
         "航空航天、机械、材料、电子信息、力学、自动化、计算机、交通运输（机务方向）等理工类专业"
       ],
       channels: [
-        { label: "国航招聘官网 zhaopin.airchina.com.cn", url: "https://zhaopin.airchina.com.cn" }
+        { label: "国航招聘官网 zhaopin.airchina.com.cn", url: "https://zhaopin.airchina.com.cn" },
+        { label: "Ameco 官网招聘页（校招邮箱 XinWen@ameco.com.cn）", url: "https://www.ameco.com.cn/cn/joinus/" }
       ],
       note: "2026届补招已结束；市场化社招（系统工程师等）长期开放；2027届校招预计随国航集团2026年9-10月启动。",
       source: "https://career.hebut.edu.cn/home/correcruit/content/id/76411.html"
@@ -98,7 +99,7 @@ window.JOB_DATA = {
       region: "中国大陆",
       title: "飞机维修技术员/机械员、高潜质工程师（30人）、附件维修机械员（20人）、航线维修机械员/技术员（50人）",
       locations: "海口、北京、成都、重庆、郑州、广州、深圳、哈尔滨等",
-      updated: "2026-08-25",
+      updated: "2026-08-26",
       requirements: [
         "2026届全日制硕士/本科/大专",
         "机械、电子、自动化、航空维修等理工类专业",
@@ -106,9 +107,10 @@ window.JOB_DATA = {
       ],
       channels: [
         { label: "海航人才招聘 recruitment.hnair.com", url: "http://recruitment.hnair.com" },
-        { label: "公司官网 hnatechnic.com", url: "http://www.hnatechnic.com" }
+        { label: "公司官网 hnatechnic.com", url: "http://www.hnatechnic.com" },
+        { label: "民航招聘（定检维修机械员/技术员岗）", url: "https://job.carnoc.com/jobs?id=f15bb92d6c214f20f154864a07f03c26&jobtype=6" }
       ],
-      note: "官网当前开放：航线维修机械员/技术员（50人，截止2026-10-30）、附件维修机械员（20人，广州/海口，截止2026-10-30）；笔面试地点含深圳/昆明/成都/重庆/福州/海口；社招（航线/定检维修等）同步开放。",
+      note: "官网当前开放：航线维修机械员/技术员（50人，截止2026-10-30）、附件维修机械员（20人，广州/海口，截止2026-10-30）；另有定检维修机械员/技术员在民航招聘官网发布；笔面试地点含深圳/昆明/成都/重庆/福州/海口；社招同步开放。",
       source: "http://recruitment.hnair.com/hrcandidatemanageair/PostList.aspx?ctype=2"
     },
     {
