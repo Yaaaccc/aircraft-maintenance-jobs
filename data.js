@@ -3,7 +3,7 @@
 // 添加新岗位：复制 positions 里任意一个 { ... } 条目，修改内容
 // ============================================================
 window.JOB_DATA = {
-  lastUpdated: "2026-09-07",
+  lastUpdated: "2026-09-08",
 
   positions: [
     {
@@ -142,7 +142,7 @@ window.JOB_DATA = {
       region: "中国大陆",
       title: "基地维修培训生（机身/航电/客舱/钣金/复材）· 持照维修工程师",
       locations: "厦门、深圳",
-      updated: "2026-09-07",
+      updated: "2026-09-08",
       requirements: [
         "培训生：大专/本科，工科背景即可",
         "持照工程师岗：大专及以上，CAAC TA执照+机型签署，或 HKCAD B1.1"
@@ -150,7 +150,7 @@ window.JOB_DATA = {
       channels: [
         { label: "HAECO 招聘官网 careers.haeco.com", url: "https://careers.haeco.com" }
       ],
-      note: "厦门基地维修工程师培训生 BM Technician Trainee（本科，CET-4，2024-2026届，招20人）报名截止2026-09-12，抓紧投递；LM Technician Trainee 航线维修培训生（本科及以上，7月底官网发布）持续在招；基地维修培训生（大专渠道，机身/航电/客舱/钣金/复材）截止2026-10-31；深圳 LM Certifying Engineer G1 放行岗在招；另有厦门太古发动机服务技术培训生（6-8k·13薪）。",
+      note: "BM Technician Trainee 基地维修工程师培训生（本科，航空/机械/电子专业，CET-4，招20人，7.9k-9.5k）官网岗位 2026-08-25 重新发布、页面未再标注截止，仍开放申请，抓紧投递；LM Technician Trainee 航线维修培训生持续在招；基地维修培训生（大专渠道，机身/航电/客舱/钣金/复材，2024-2026届）截止 2026-10-31；深圳 LM Certifying Engineer G1 放行岗在招；另有厦门太古发动机服务技术培训生（6-8k·13薪）。",
       source: "https://careers.haeco.com/job/Xiamen-HXXMN_0GTA-BM-Technician-Trainee/1214470866/"
     },
     {
@@ -182,7 +182,7 @@ window.JOB_DATA = {
       region: "中国大陆",
       title: "维修机械员（机械/客舱/航线/电子/无损探伤/结构）、维修技术员、质量工程师",
       locations: "成都（双流/天府基地）",
-      updated: "2026-08-19",
+      updated: "2026-09-08",
       requirements: [
         "相关理工类专业背景",
         "部分岗位需民航维修执照或相关工作经验"
@@ -192,8 +192,8 @@ window.JOB_DATA = {
         { label: "智联招聘（川维岗位）", url: "https://www.zhaopin.com" },
         { label: "「四川航空集团招聘」公众号 / 民航资源网", url: "" }
       ],
-      note: "2026-06-12至07-10批次报名已截止；近期社招岗位（维修机械员-机械/客舱/无损探伤等，月薪约6000-10000）在智联招聘等渠道持续发布。",
-      source: "https://www.scjjrb.cn/2026/06/15/wap_99466207.html"
+      note: "2026-09 复核：川航集团子企业批量招聘岗位在招——维修机械员（机械5人/客舱座椅内饰2人/航线1人/电子5人/无损探伤1人/结构1人）、技术服务部技术员（系统）、设备部支援助理等，工作地成都双流/天府基地（须服从调配）；2026-06-12至07-10批次报名已截止，当前批次经川航集团渠道扫码投递。",
+      source: "https://www.toutiao.com/article/7651057756383806002"
     },
     {
       id: 10,
@@ -241,19 +241,20 @@ window.JOB_DATA = {
       category: "航司",
       type: ["校招", "社招"],
       region: "中国大陆",
-      title: "飞机维修工程师（2026校招）· 菁英工程管理培训生（发动机动力方向）· 部附件维修工程师、放行工程师（社招）",
+      title: "飞机维修工程师 · 菁英工程管理培训生（2027届校招）",
       locations: "上海（浦东）",
-      updated: "2026-08-20",
+      updated: "2026-09-08",
       requirements: [
-        "校招：大专及以上26届毕业生，飞机维修、电子电气等相关专业优先，英语CET-4/专科英语A级",
-        "社招：需相关经验或执照"
+        "校招：2027届应届毕业生，飞机维修工程师岗专科及以上（民航类院校机务相关专业、综合类院校理工科），英语CET-4及以上",
+        "菁英工程管理培训生（维修工程部）：全日制硕士及以上，英语CET-6及以上，理工科/计算机/民航专业优先",
+        "社招岗位需相关经验或执照，官网持续更新"
       ],
       channels: [
         { label: "吉祥航空招聘官网", url: "https://wecruit.hotjob.cn/SU62ea129d0dcad4075c8525ca/pb/index.html" },
-        { label: "前程无忧（菁英工程管理培训生岗位页）", url: "https://msearch.51job.com/jobs/shanghai-pdxq/167937850.html" }
+        { label: "吉祥航空校园招聘系统", url: "http://jxhksh.hotjob.cn/wt/jxhksh/web/index/campus" }
       ],
-      note: "2026届校招（飞机维修工程师、菁英工程管理培训生-发动机动力方向）2026-08复核仍在招；社招同步开放，官网持续更新岗位。",
-      source: "https://job.carnoc.com/jobs?id=680a0ae7ecfd742121e3fb3863e1fd3f"
+      note: "2027届校园招聘简章已发布：飞机维修工程师（维修工程部，做二休二、停机坪一线，晋升路径学员→放行工程师）、菁英工程管理培训生（发动机动力方向，四年专项培养）等岗位开放投递，另设「卓越工程师」专项培养计划选拔；投递经官网校招系统或公众号「吉祥航空招聘」。",
+      source: "http://jxhksh.hotjob.cn/wt/jxhksh/web/index/campus"
     },
     {
       id: 13,
@@ -263,7 +264,7 @@ window.JOB_DATA = {
       region: "中国大陆",
       title: "飞机维修（含卓越工程师计划）（2027届校招）",
       locations: "厦门、杭州",
-      updated: "2026-09-07",
+      updated: "2026-09-08",
       requirements: [
         "2027届应届毕业生，本科及以上",
         "飞机发动机、动力、电子、电气、机械、结构、无损检测等相关专业",
@@ -271,10 +272,11 @@ window.JOB_DATA = {
       ],
       channels: [
         { label: "厦航招聘网 hr.xiamenair.com", url: "https://hr.xiamenair.com" },
+        { label: "智联招聘投递入口 xiamenair2027.zhaopin.com", url: "http://xiamenair2027.zhaopin.com" },
         { label: "公众号「厦门航空招聘」", url: "" }
       ],
-      note: "2027届校园招聘简章已发布：飞机维修工程部-飞机维修（含卓越工程师计划），工作地厦门、杭州；卓越工程师计划入职即按转正标准计薪、优先安排民航维修执照学习；9月起多校宣讲（福州大学 9-10 等）；机务大专生（外包岗）合作院校批次已先行启动。",
-      source: "https://my.yingjiesheng.com/xjh-006-287-671.html"
+      note: "2027届秋招正式启航，官方简章已发布：飞机维修工程部-飞机维修（含卓越工程师计划），工作地厦门、杭州，简历投递经智联招聘搜索「厦门航空」（xiamenair2027.zhaopin.com）；卓越工程师计划入职即按转正标准计薪、优先安排民航维修执照学习、工作地仅限厦门；机务大专生（外包岗）面向2027届专科生批次同步推进（长沙航院等院校已发通知）；offer 考核后约两周发放，需两周内完成体检签约。",
+      source: "https://jyc.cavtc.cn/info/1004/4581.htm"
     },
     {
       id: 14,
@@ -284,7 +286,7 @@ window.JOB_DATA = {
       region: "中国大陆",
       title: "飞机维修工程师（2027届秋招）",
       locations: "深圳",
-      updated: "2026-09-07",
+      updated: "2026-09-08",
       requirements: [
         "2027届毕业生，大专及以上",
         "飞行器动力/制造与设计、飞机机电设备维修、飞机电子设备维修、机械、机电、电子信息、电气、自动化、材料等航空类、理工类专业"
@@ -293,28 +295,29 @@ window.JOB_DATA = {
         { label: "深航招聘官网", url: "https://shenzhenair.hotjob.cn/SU66ea90991eb80537aad29e09/pb/school.html" },
         { label: "公众号「深航招聘」", url: "" }
       ],
-      note: "2027届秋招已启动：简历投递截止 2026-09-18 8:00（宣讲9-18 18:00 可现场投递、笔试9-19上午、面试9-19下午、体检9-20，以实际通知为准）；请在深航校招官网「招聘职位」对应站点投递。",
-      source: "https://m.yingjiesheng.com/xuanjianghui/xjh_5702129"
+      note: "2027届秋招分站点推进（飞机维修工程师岗，工作地深圳）：中国民航大学（天津）站简历投递截止 2026-09-12 24:00，宣讲 9-13 14:30、笔试 9-13 19:00、面试 9-14、体检 9-15；其他院校站点如 9-18 8:00 投递截止（宣讲 9-18 18:00 可现场投递、笔试 9-19、面试 9-19 下午、体检 9-20），以实际通知为准；请在深航校招官网「招聘职位」对应站点投递。",
+      source: "https://cauc.bysjy.com.cn/detail/career?id=583452"
     },
     {
       id: 15,
       company: "顺丰航空",
       category: "航司",
-      type: ["实习"],
+      type: ["校招"],
       region: "中国大陆",
-      title: "机务工程储备（「机务卓越工程师」暑期实习 / 校招）",
-      locations: "深圳",
-      updated: "2026-08-17",
+      title: "机务维修工程师 · 机务生产储备 · 航空安全与质量（2027届秋招）",
+      locations: "深圳、杭州、鄂州、北京",
+      updated: "2026-09-08",
       requirements: [
-        "暑期实习面向2027届（2023级）全日制本科，985/211院校优先",
-        "飞行器设计与工程、飞行器制造工程、机械、材料等专业"
+        "2027届全日制统招本科及以上应届毕业生",
+        "飞行器动力工程、自动化、机械、电子信息工程、材料化学、力学等理工科相关专业",
+        "在校成绩优良、专业知识扎实，中共党员/学生干部优先；机务生产储备发展方向为机务放行工程师"
       ],
       channels: [
         { label: "顺丰校园招聘 campus.sf-express.com", url: "https://campus.sf-express.com" },
         { label: "公众号「顺丰航空招聘」", url: "" }
       ],
-      note: "顺丰2027届校园招聘页面已上线（campus.sf-express.com）；2027届「机务丰翼班」「飞机维修现代学徒制订单班」校企合作此前已在山东航空学院、长沙航院等院校启动；秋招机务岗位预计陆续发布，留意官网职位列表及公众号。",
-      source: "https://campus.sf-express.com/#/allList"
+      note: "2027届秋招宣讲已启动：机务维修工程师（系统工程/动力工程/结构工程/维修方案可靠性/构型/生产计划等方向，深圳）、机务生产储备（例行/非例行维修，深圳/杭州/鄂州/北京，发展主向为放行工程师）、航空安全与质量（深圳）等岗位开放投递；另「机务丰翼班」「飞机维修现代学徒制订单班」校企合作此前已在山东航空学院、长沙航院等院校启动；留意官网职位列表及公众号。",
+      source: "https://m.yingjiesheng.com/xuanjianghui/xjh_6018380"
     },
     {
       id: 16,
@@ -344,7 +347,7 @@ window.JOB_DATA = {
       region: "新加坡",
       title: "Aircraft Maintenance License Trainee（AMLT，44个月CAAS Cat B执照培训）· Certifying Aircraft Trainee Technician（CTT，28个月CAT A）· Aircraft Trainee Technician（Dual Trade，16个月B1+B2）",
       locations: "新加坡",
-      updated: "2026-08-20",
+      updated: "2026-09-08",
       requirements: [
         "无经验要求，应届生可申请",
         "理工科背景优先",
@@ -354,7 +357,7 @@ window.JOB_DATA = {
         { label: "SIAEC 招聘官网 careers.singaporeair.com/siaec", url: "https://careers.singaporeair.com/siaec" },
         { label: "CTT 岗位页", url: "https://careers.singaporeair.com/siaec/job/Certifying-Aircraft-Trainee-Technician/20189844" }
       ],
-      note: "面向应届/早期职业者；CTT 为28个月CAT A持证技术员培训（2026-08复核在招）；培训后可获CAAS执照；需自行确认工作签证（EP/SP）。",
+      note: "面向应届/早期职业者；CTT 为28个月CAT A持证技术员培训（2026-09复核官网在招，AMLT 岗位页 2026-08-09 更新）；培训后可获CAAS执照；需自行确认工作签证（EP/SP）。",
       source: "https://careers.singaporeair.com/siaec/job/Aircraft-Maintenance-License-Trainee-%28AMLT%29/19970444/"
     },
     {
@@ -407,7 +410,7 @@ window.JOB_DATA = {
       region: "新加坡",
       title: "Trainee Technician - China（13个月培训生项目）",
       locations: "中国（理论培训）→ 新加坡（实习）",
-      updated: "2026-08-19",
+      updated: "2026-09-08",
       requirements: [
         "工程类大专或本科学历",
         "前6个月在国内院校完成理论培训，之后赴新加坡实习",
@@ -417,7 +420,7 @@ window.JOB_DATA = {
         { label: "SIAEC 招聘官网（岗位页）", url: "https://careers.singaporeair.com/siaec/job/Trainee-Technician-China/27632844/" },
         { label: "SIAEC 招聘官网 careers.singaporeair.com/siaec", url: "https://careers.singaporeair.com/siaec" }
       ],
-      note: "面向中国应届毕业生的培训生项目，为期13个月，2026-08核实仍在招；投递前请以官网最新要求为准。",
+      note: "面向中国应届毕业生的培训生项目，为期13个月，2026-09复核官网岗位页仍在线（页面日期 2026-07-11）；投递前请以官网最新要求为准。",
       source: "https://careers.singaporeair.com/siaec/job/Trainee-Technician-China/27632844/"
     }
   ],
