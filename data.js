@@ -3,7 +3,7 @@
 // 添加新岗位：复制 positions 里任意一个 { ... } 条目，修改内容
 // ============================================================
 window.JOB_DATA = {
-  lastUpdated: "2026-09-09",
+  lastUpdated: "2026-09-10",
 
   positions: [
     {
@@ -142,7 +142,7 @@ window.JOB_DATA = {
       region: "中国大陆",
       title: "基地维修培训生（机身/航电/客舱/钣金/复材）· 持照维修工程师",
       locations: "厦门、深圳",
-      updated: "2026-09-08",
+      updated: "2026-09-10",
       requirements: [
         "培训生：大专/本科，工科背景即可",
         "持照工程师岗：大专及以上，CAAC TA执照+机型签署，或 HKCAD B1.1"
@@ -150,8 +150,8 @@ window.JOB_DATA = {
       channels: [
         { label: "HAECO 招聘官网 careers.haeco.com", url: "https://careers.haeco.com" }
       ],
-      note: "BM Technician Trainee 基地维修工程师培训生（本科，航空/机械/电子专业，CET-4，招20人，7.9k-9.5k）官网岗位 2026-08-25 重新发布、页面未再标注截止，仍开放申请，抓紧投递；LM Technician Trainee 航线维修培训生持续在招；基地维修培训生（大专渠道，机身/航电/客舱/钣金/复材，2024-2026届）截止 2026-10-31；深圳 LM Certifying Engineer G1 放行岗在招；另有厦门太古发动机服务技术培训生（6-8k·13薪）。",
-      source: "https://careers.haeco.com/job/Xiamen-HXXMN_0GTA-BM-Technician-Trainee/1214470866/"
+      note: "BM Technician Trainee 基地维修工程师培训生（本科，航空/机械/电子专业，CET-4，招20人，7.9k-9.5k）：厦门人才网标注报名时间为2026-08-12至2026-09-12，截止在即请尽快投递（官网岗位页2026-08-25更新仍在线）；LM Technician Trainee 航线维修培训生持续在招；基地维修培训生（大专渠道，机身/航电/客舱/钣金/复材，2024-2026届）截止 2026-10-31；深圳 LM Certifying Engineer G1 放行岗在招；另有厦门太古发动机服务技术培训生（6-8k·13薪）。",
+      source: "https://www.xmrc.com.cn/Recruit/RecruitInfo/?id=be1495e5ca70ce30294f7cd96bb38132&type=1"
     },
     {
       id: 8,
@@ -159,20 +159,20 @@ window.JOB_DATA = {
       category: "发动机维修",
       type: ["校招", "社招"],
       region: "中国大陆",
-      title: "机械员（Mechanic）、数控车间机械员、检验员",
-      locations: "珠海",
-      updated: "2026-05-22",
+      title: "数控车间机械员 · 航材配置（Marshaller）· 收货检验员 · Mechanic机械员",
+      locations: "珠海（保税区/金湾分厂）",
+      updated: "2026-09-10",
       requirements: [
-        "2025/2026届毕业生",
-        "数控技术、飞行器制造/维修、发动机制造/维修等专业",
-        "大学英语三级及以上，持民航维修执照者优先"
+        "全日制大专（含）以上学历，理工类相关专业，数控技术、飞机/发动机维修、飞行器维修/制造技术等专业优先",
+        "取得英语A级（含）以上或相关英语等级证书",
+        "成绩良好，补考重修科目不多于3门；持有民航维修执照者优先"
       ],
       channels: [
         { label: "民航招聘官网（岗位页）", url: "https://job.carnoc.com/jobs?id=c84524fb466f87b7a0e470778d604863" },
         { label: "公司官网/公众号", url: "" }
       ],
-      note: "2026年3月起多批岗位开放，具体以官网发布为准。",
-      source: "https://m.fenbi.com/page/fenxiaozhaokaodetail/2/524/465108662506496"
+      note: "2026-09 复核：校招已启动——长沙航院发布招聘通知（数控车间机械员、航材配置 Marshaller、收货检验员），并于2026-09-06在中国民航大学举办宣讲会；Mechanic机械员（0.6-1.2万，大专，不限经验）等社招岗在民航招聘网持续在招；金湾分厂2025年投运、年产能扩至700台发动机。投递请携带中英文简历及成绩单，以官网/院校通知为准。",
+      source: "https://jyc.cavtc.cn/info/1004/4571.htm"
     },
     {
       id: 9,
