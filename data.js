@@ -122,18 +122,19 @@ window.JOB_DATA = {
       region: "中国大陆",
       title: "飞机维修工程师",
       locations: "济南",
-      updated: "2026-03-16",
+      updated: "2026-09-11",
       requirements: [
-        "2026届应届毕业生，本科及以上",
-        "CET-4 425分及以上",
-        "机械设计制造及其自动化、机械电子工程、材料成型、复合材料、测控、车辆工程、交通运输、能源动力、电气、自动化、电子信息等专业"
+        "本科及以上（智联校园当前岗位标注「在校/应届」可投，既往简章面向应届毕业生）",
+        "CET-4 425分及以上（既往简章要求）",
+        "优选机械设计制造及其自动化、电气工程及其自动化；既往简章亦含机械电子、材料成型、复合材料、测控、车辆工程、交通运输、能源动力、自动化、电子信息等专业"
       ],
       channels: [
+        { label: "智联校园岗位页（飞机维修工程师·20人）", url: "https://xiaoyuan.zhaopin.com/job/CCL1239217340J40806117501" },
         { label: "招聘邮箱 51job@staeco.com", url: "mailto:51job@staeco.com" },
         { label: "公司官网 www.staeco.com", url: "http://www.staeco.com" }
       ],
-      note: "校招主要通过高校宣讲会/就业网发布，可邮件投递并关注官网及公众号。",
-      source: "https://career.sdbys.com/teachinOnline/view/id/133349/mark/career"
+      note: "2026-09 复核：智联校园在招「飞机维修工程师」20人（济南，在校/应届本科，薪资面议，优选机械设计制造及其自动化、电气工程及其自动化），岗位页已核实在线、未标注截止日期，建议尽早投递；校招主要通过高校宣讲会/就业网及招聘平台发布，可邮件投递并关注官网及公众号。",
+      source: "https://xiaoyuan.zhaopin.com/job/CCL1239217340J40806117501"
     },
     {
       id: 7,
