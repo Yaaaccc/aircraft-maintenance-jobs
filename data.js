@@ -3,7 +3,7 @@
 // 添加新岗位：复制 positions 里任意一个 { ... } 条目，修改内容
 // ============================================================
 window.JOB_DATA = {
-  lastUpdated: "2026-09-11",
+  lastUpdated: "2026-09-12",
 
   positions: [
     {
@@ -144,7 +144,7 @@ window.JOB_DATA = {
       region: "中国大陆",
       title: "基地维修培训生（机身/航电/客舱/钣金/复材）· 持照维修工程师",
       locations: "厦门、深圳",
-      updated: "2026-09-10",
+      updated: "2026-09-12",
       requirements: [
         "培训生：大专/本科，工科背景即可",
         "持照工程师岗：大专及以上，CAAC TA执照+机型签署，或 HKCAD B1.1"
@@ -152,7 +152,7 @@ window.JOB_DATA = {
       channels: [
         { label: "HAECO 招聘官网 careers.haeco.com", url: "https://careers.haeco.com" }
       ],
-      note: "BM Technician Trainee 基地维修工程师培训生（本科，航空/机械/电子专业，CET-4，招20人，7.9k-9.5k）：厦门人才网标注报名时间为2026-08-12至2026-09-12，截止在即请尽快投递（官网岗位页2026-08-25更新仍在线）；LM Technician Trainee 航线维修培训生持续在招；基地维修培训生（大专渠道，机身/航电/客舱/钣金/复材，2024-2026届）截止 2026-10-31；深圳 LM Certifying Engineer G1 放行岗在招；另有厦门太古发动机服务技术培训生（6-8k·13薪）。",
+      note: "BM Technician Trainee 基地维修工程师培训生（本科，航空/机械/电子专业，CET-4，招20人，7.9k-9.5k）：厦门人才网标注报名时间为2026-08-12至2026-09-12，本批报名已截止（2026-09-12 复核岗位页仍在线，可留意后续批次及官网渠道）；LM Technician Trainee 航线维修培训生持续在招；基地维修培训生（大专渠道，机身/航电/客舱/钣金/复材，2024-2026届）截止 2026-10-31；深圳 LM Certifying Engineer G1 放行岗在招；另有厦门太古发动机服务技术培训生（6-8k·13薪）。",
       source: "https://www.xmrc.com.cn/Recruit/RecruitInfo/?id=be1495e5ca70ce30294f7cd96bb38132&type=1"
     },
     {
